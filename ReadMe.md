@@ -75,6 +75,19 @@ python queue_counter.py
 - Combined view from all cameras
 - MP4 video output with tracking results
 
+## Output Example
+
+![Queue Analysis Output](output_1.mp4)
+
+In the example above:
+
+- Left: Camera view 1 of the queue entrance
+- Right: Camera view 2 of the queue exit
+- Colored boxes: Person detections with unique global IDs
+- Text labels: "GID X | Y.Ys" where X is the global ID and Y.Y is estimated waiting time
+- Top-left corner: Total number of people currently in queue
+- Real-time performance: System processes multiple camera feeds at 15-30 FPS depending on hardware
+
 ## Contributing
 
 Feel free to submit issues, fork the repository, and create pull requests for any improvements.
